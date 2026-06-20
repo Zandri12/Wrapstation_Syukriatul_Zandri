@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.cache/
+.pytest_cache/
+
+# YOLO & Models
+*.pt
+runs/
+yolov8*.pt
+yolov8*.onnx
+
+# Datasets
+Fruit_Detection/dataset/Fruits by YOLO/
+Fruit_Detection/dataset/data.yaml
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
