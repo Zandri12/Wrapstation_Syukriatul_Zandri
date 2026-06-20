@@ -13,16 +13,22 @@ Proyek ini adalah penyelesaian tugas untuk membangun sistem Object Detection men
    ```bash
    pip install -r requirements.txt
    ```
+3. **Persiapan Dataset (Hanya jika ingin melatih ulang):**
+   * Unduh dataset dari [Kaggle](https://www.kaggle.com/datasets/kapturovalexander/fruits-by-yolo-fruits-detection).
+   * Ekstrak file tersebut ke dalam folder `dataset/`.
+   * Salin file `data.yaml.example` menjadi `dataset/data.yaml` dan sesuaikan path direktori jika berbeda.
 
 ## Cara Kerja & Penggunaan Aplikasi
 Aplikasi ini menggunakan model deteksi objek YOLO (You Only Look Once) untuk mengenali buah-buahan dalam sebuah gambar.
-1. **Training Model (`train.py`):** Skrip ini membaca konfigurasi dataset dari `dataset/data.yaml` dan melatih model YOLO pada data gambar tersebut. Hasil akhir dari proses ini adalah file weights (`.pt`) yang menyimpan 'pengetahuan' model tentang bentuk buah-buahan.
+1. **Training Model (`train.py`):** Skrip ini membaca konfigurasi dataset dari `dataset/data.yaml` dan melatih model YOLO pada data gambar tersebut.
    Jalankan training dengan:
    ```bash
    python train.py
    ```
-2. **Inference / Deteksi (`inference.py`):** Skrip ini memuat model yang telah dilatih dan memproses gambar-gambar baru. OpenCV digunakan untuk menampilkan gambar ke layar beserta *bounding box* (kotak pembatas) dan label probabilitas prediksi buah tersebut.
-   Jalankan inference dengan:
+   *Hasil training otomatis tersimpan di `runs/detect/...`.*
+
+2. **Inference / Deteksi (`inference.py`):** Skrip ini memuat model yang telah dilatih secara default dari folder `weights/best.pt` dan memproses gambar pengetesan (test). OpenCV digunakan untuk menampilkan jendela *live preview* gambar beserta *bounding box* dan label nama buah yang terdeteksi.
+   Jalankan inference langsung dengan:
    ```bash
    python inference.py
    ```

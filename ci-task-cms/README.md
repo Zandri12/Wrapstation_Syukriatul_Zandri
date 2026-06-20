@@ -18,10 +18,12 @@ Proyek ini adalah sistem manajemen konten (CMS) dasar atau starter aplikasi yang
    ```bash
    cp env .env
    ```
-4. Buka file `.env` yang baru dibuat dan sesuaikan konfigurasi database Anda pada bagian `# DATABASE`, misalnya:
-   * Driver database (`database.default.DBDriver`): `Postgre` atau `MySQLi`.
-   * Hostname, database name, username, password, dan port.
-5. Impor skema basis data awal yang terletak di [database/ci-task.sql](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/ci-task-cms/database/ci-task.sql) ke server database Anda.
+4. Buka file `.env` yang baru dibuat dan masukkan kata sandi PostgreSQL Anda pada kolom:
+   ```ini
+   database.default.password = PASSWORD_POSTGRES_ANDA
+   ```
+   *(Konfigurasi driver PostgreSQL, port `5432`, dan nama database `ci-task` sudah terkonfigurasi secara otomatis dari template).*
+5. Buat database baru bernama `ci-task` di PostgreSQL Anda, lalu impor skema basis data awal dari file [database/ci-task.sql](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/ci-task-cms/database/ci-task.sql).
 
 ## Cara Kerja & Penggunaan Aplikasi
 CodeIgniter 4 menggunakan pola arsitektur MVC (Model-View-Controller). 
