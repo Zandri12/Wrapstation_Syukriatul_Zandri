@@ -8,9 +8,9 @@ Repository ini berisi penyelesaian seluruh tugas teknis untuk posisi kandidat di
 
 | Nama Modul | Lokasi Folder | Dependensi Utama | Panduan Detail |
 | :--- | :--- | :--- | :--- |
-| **1. AI Training (Fruit Detection)** | [`/Fruit_Detection`](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/Fruit_Detection) | `ultralytics` (YOLOv8), `opencv-python` | [Baca README Modul 1](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/Fruit_Detection/README.md) |
-| **2. IoT & Embedded Systems** | [`/IoT_Camera`](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/IoT_Camera) | `opencv-python`, `numpy` | [Baca README Modul 2](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/IoT_Camera/README.md) |
-| **3. CodeIgniter (CMS)** | [`/ci-task-cms`](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/ci-task-cms) | PHP >= 8.2, `codeigniter4/framework` | [Baca README Modul 3](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/ci-task-cms/README.md) |
+| **1. AI Training (Fruit Detection)** | [`/Fruit_Detection`](file:///c:/Users/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/Fruit_Detection) | `ultralytics` (YOLOv8), `opencv-python` | [Baca README Modul 1](file:///c:/Users/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/Fruit_Detection/README.md) |
+| **2. IoT & Embedded Systems** | [`/IoT_Camera`](file:///c:/Users/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/IoT_Camera) | `opencv-python`, `numpy` | [Baca README Modul 2](file:///c:/Users/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/IoT_Camera/README.md) |
+| **3. CodeIgniter (CMS)** | [`/ci-task-cms`](file:///c:/Users/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/ci-task-cms) | PHP >= 8.2, `codeigniter4/framework` | [Baca README Modul 3](file:///c:/Users/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/ci-task-cms/README.md) |
 
 ---
 

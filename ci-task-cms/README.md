@@ -23,7 +23,7 @@ Proyek ini adalah sistem manajemen konten (CMS) dasar atau starter aplikasi yang
    database.default.password = PASSWORD_POSTGRES_ANDA
    ```
    *(Konfigurasi driver PostgreSQL, port `5432`, dan nama database `ci-task` sudah terkonfigurasi secara otomatis dari template).*
-5. Buat database baru bernama `ci-task` di PostgreSQL Anda, lalu impor skema basis data awal dari file [database/ci-task.sql](file:///c:/Users/Mustafa/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/ci-task-cms/database/ci-task.sql).
+5. Buat database baru bernama `ci-task` di PostgreSQL Anda, lalu impor skema basis data awal dari file [database/ci-task.sql](file:///c:/Users/Downloads/Zandri/Wrapstation_Syukriatul_Zandri/ci-task-cms/database/ci-task.sql).
 
 ## Cara Kerja & Penggunaan Aplikasi
 CodeIgniter 4 menggunakan pola arsitektur MVC (Model-View-Controller). 
