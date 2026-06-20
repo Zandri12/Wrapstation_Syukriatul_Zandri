@@ -1,0 +1,17 @@
+# data.yaml.example
+path: ./dataset/Fruits by YOLO/Fruits by YOLO # Path relatif ke folder dataset Anda
+train: train
+val: valid
+test: test
+
+nc: 9
+names:
+  - Apple
+  - Banana
+  - Grapes
+  - Kiwi
+  - Mango
+  - Orange
+  - Pineapple
+  - Sugerapple
+  - Watermelon

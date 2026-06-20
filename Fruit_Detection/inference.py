@@ -5,11 +5,15 @@ from ultralytics import YOLO
 
 def main():
     image_dir = "dataset/Fruits by YOLO/Fruits by YOLO/test" 
-    model_path = "runs/detect/fruit_detection_model/weights/best.pt"
+    model_path = "weights/best.pt"
     
     if not os.path.exists(model_path):
+        # Fallback to runs/detect if weights/best.pt is missing locally
+        model_path = "runs/detect/fruit_detection_model/weights/best.pt"
+        
+    if not os.path.exists(model_path):
         print(f"Error: Model '{model_path}' tidak ditemukan.")
-        print("Pastikan Anda sudah menjalankan script training (train.py) terlebih dahulu.")
+        print("Pastikan Anda sudah menjalankan script training (train.py) atau meletakkan 'best.pt' di folder 'weights'.")
         return
 
     if not os.path.exists(image_dir):

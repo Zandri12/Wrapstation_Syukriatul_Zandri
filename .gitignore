@@ -16,6 +16,8 @@ pip-delete-this-directory.txt
 # YOLO & Models
 *.pt
 runs/
+!Fruit_Detection/weights/
+!Fruit_Detection/weights/best.pt
 yolov8*.pt
 yolov8*.onnx
 
